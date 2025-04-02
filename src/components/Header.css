@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Unbounded:wght@200..900&display=swap');
+
+.component {
+    height: 300px;
+}
+/*teste teste*/
+.component-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 25px; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    gap: 40px;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}

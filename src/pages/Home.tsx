@@ -1,22 +1,22 @@
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
-import ExploreContainer from '../components/ExploreContainer';
 import './Home.css';
+import Header from '../components/Header';
+import BestDeals from '../components/BestDeals';
+import Wishlist from '../components/Wishlist';
+import AlertActivity from '../components/AlertActivity';
+import AdMiddle from '../components/AdMiddle';
+import Categories from '../components/Categories';
 
 const Home: React.FC = () => {
   return (
     <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Blank</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+      <Header />
+      <IonContent>
+      <Categories/>
+       <BestDeals/>
+       <AdMiddle/>
+       <Wishlist/>
+      {/* <AlertActivity/> */}
       </IonContent>
     </IonPage>
   );

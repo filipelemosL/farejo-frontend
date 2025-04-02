@@ -1,0 +1,54 @@
+.component {
+    height: 300px;
+}
+
+.component-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    height: 25px;
+}
+
+.carousel {
+    height: 210px;
+    width: 100%;
+
+}
+
+.slide-container {
+    display: flex;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+
+    
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 210px;
+    width: 180px;
+    border-radius: 15px;
+}
+
+.slick-slide {
+    padding: 0 10px;  /* Ajuste esse valor para aumentar/diminuir o espaçamento */
+}
+
+/* Compensa o padding dos slides */
+.slick-list {
+    margin: 0 -10px;
+}
+
+/* Opcional: estiliza as setas de navegação */
+.slick-prev {
+    left: -25px;
+}
+
+.slick-next {
+    right: -25px;
+}

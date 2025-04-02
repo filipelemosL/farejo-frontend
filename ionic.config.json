@@ -1,5 +1,7 @@
 {
   "name": "gdm",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "react-vite"
 }
